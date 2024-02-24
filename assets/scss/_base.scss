@@ -1,0 +1,15 @@
+body {
+  font-weight: 600;
+  direction: rtl;
+  background-color: #eff2f9;
+  font-family: "CustomFont", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url(@/assets/fonts/Vazir-Thin.woff) format("woff");
+}
+@font-face {
+  font-family: "CustomBoldFont";
+  src: url(@/assets/fonts/Vazir-bold.woff) format("woff");
+}

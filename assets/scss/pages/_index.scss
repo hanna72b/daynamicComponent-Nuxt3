@@ -1,0 +1,77 @@
+.indexStyle {
+  &__col {
+    background-color: #fff;
+    border-radius: 6px;
+    // padding: 0.6rem 1.4rem;
+    &__numbers {
+      width: 89%;
+      top: 15%;
+      left: 6%;
+      span {
+        color: #cbcaca;
+        background-color: #eff2f9;
+        padding: 0.4rem 0.6rem 0.2rem 0.6rem;
+      }
+      .activeOption {
+        color: #fff;
+        background-color: #5b7cf1;
+      }
+    }
+    &__border {
+      border-top: 3px solid #eff2f9;
+    }
+    &__text {
+      span {
+        color: #9d9d9d;
+      }
+      .activeOption {
+        color: #000;
+      }
+    }
+    &__numbersForMobile {
+      span {
+        color: #fff;
+        background-color: #5b7cf1;
+        padding: 0.4rem 0.7rem 0.3rem 0.8rem;
+        font-size: 0.875rem;
+      }
+    }
+    &__textForMobile{
+      font-size: 0.875rem;
+    }
+  }
+  &__component {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 0.6rem 1.4rem;
+    small {
+      color: #9ca3af;
+    }
+    &__selectLng {
+      &-lng {
+        background-color: #e1e7f4;
+        padding: 0.2rem 0.4rem;
+        border-radius: 10px;
+        font-size: 0.6rem;
+      }
+    }
+    &__category {
+      &-option {
+        background-color: #eff2f9;
+        border-radius: 7px;
+        // width: 6rem;
+      }
+      .activeCategory {
+        color: #fff;
+        background-color: #5b7cf1;
+      }
+    }
+    &__button {
+      button {
+        border-radius: 6px;
+        background-color: #5b7cf1;
+        color: #fff;
+      }
+    }
+  }
+}

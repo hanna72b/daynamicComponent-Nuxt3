@@ -1,0 +1,28 @@
+.navbarStyle {
+  &__logo {
+    font-size: 1.5rem;
+    font-family: "CustomBoldFont", Arial, sans-serif;
+  }
+  &__buttons {
+    &__lng {
+      background-color: #e1e7f4;
+      padding: 0.2rem;
+      border-radius: 6px;
+      font-size: 0.5rem;
+    }
+    &__panel {
+      border: 1px solid #000;
+      border-radius: 6px;
+      width: 6rem;
+      height: 1.5rem;
+    }
+    &__authBtn {
+      background-color: #5b7cf1;
+      border: 1px solid #5b7cf1;
+      color: #fff;
+      border-radius: 6px;
+      width: 6rem;
+      height: 1.5rem;
+    }
+  }
+}
