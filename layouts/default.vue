@@ -4,6 +4,7 @@
 
     <div @click="$router.back()" class="mt-4 ps-5 md:ps-16 cursor-pointer">
       flash بازگشت
+      <!-- test  -->
     </div>
     <slot />
     <fixedNavbar />
