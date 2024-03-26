@@ -1,9 +1,11 @@
 <template>
   <div class="indexStyle mx-4 md:mx-32 mt-4">
     <!-- change component column desktop-->
-    <div class="indexStyle__col px-6 py-2 relative hidden md:block">
+    <div
+      class="indexStyle__col px-6 py-2 relative hidden md:flex flex-col items-center"
+    >
       <div
-        class="indexStyle__col__numbers flex items-center justify-between absolute"
+        class="indexStyle__col__numbers w-[89%] flex items-center justify-between absolute"
       >
         <span
           @click="useData.componentIndex = number"
@@ -17,10 +19,12 @@
       </div>
 
       <div
-        class="indexStyle__col__border flex items-center justify-between pt-4 mt-4 mx-7"
+        class="indexStyle__col__border w-[89%] flex items-center justify-between pt-4 mt-4 mx-7"
       ></div>
 
-      <div class="indexStyle__col__text flex items-center justify-between mt-3">
+      <div
+        class="indexStyle__col__text w-full flex items-center justify-between mt-3"
+      >
         <span
           @click="useData.componentIndex = option.id"
           v-for="option in options"

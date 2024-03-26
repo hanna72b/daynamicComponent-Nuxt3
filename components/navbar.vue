@@ -2,9 +2,13 @@
   <nav
     class="navbarStyle w-full flex items-center justify-between h-[7%] md:h-[10%] bg-white shadow-gray-400 px-5 md:px-16"
   >
-    <div class="flex md:hidden">hamberger</div>
+    <div class="flex md:hidden">
+      <i class="icon-menu"></i>
+    </div>
 
-    <nuxt-link class="navbarStyle__logo" to="/">لوگو</nuxt-link>
+    <nuxt-link class="navbarStyle__logo" to="/">
+      <i class="icon-vodafone"></i>
+    </nuxt-link>
 
     <div class="flex md:hidden">profile</div>
 

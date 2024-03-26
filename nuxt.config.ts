@@ -7,6 +7,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  css: ["~/assets/scss/main.scss"],
+  css: ["~/assets/scss/main.scss" ,
+  "@/assets/font-icon/style.css", ],
   modules: ["@pinia/nuxt"],
 });
